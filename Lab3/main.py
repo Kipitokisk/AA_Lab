@@ -4,7 +4,7 @@ from Lab3.Algorithms import GraphDFS, GraphBFS
 import pandas as pd
 from networkx.generators.random_graphs import erdos_renyi_graph
 
-values=[ 4, 8, 16, 32, 64, 128, 256, 512]
+values=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 130, 140, 150]
 timeDFS = []
 timeBFS = []
 for i in values:
